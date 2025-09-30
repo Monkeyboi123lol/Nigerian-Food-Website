@@ -206,3 +206,53 @@ display:flex; -> displays item in a row(horizontally)
 .card-wrapper {
   margin-top: 50px;
 }
+
+.Reviews {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  gap: 5px;
+  height: auto;
+}
+
+.comment-reviews img {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.comment-reviews {
+  display: flex;
+  gap: 20px;
+  width: 10 0%;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 5px;
+  background-color: rgb(27, 73, 27);
+  color: white;
+  height: 100px;
+  margin-top: 20px;
+}
+
+footer img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+footer p {
+  font-size: 15px;
+}
+
+footer i {
+  display: flex;
+  gap: 0px;
+  align-items: auto;
+  font-size: 20px;
+}
